@@ -16,6 +16,7 @@ public class EtudiantDB {
 		
 		
 		try {
+			////cn = DriverManager.getConnection("jdbc:ucanaccess://d:/etudiants.accdb");
 			cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "") ;
 		} catch (SQLException e) {
 		
