@@ -3,7 +3,7 @@ package jdbc;
 import java.sql.*;
 import java.util.ArrayList;
 
-import com.mysql.cj.protocol.Resultset;
+
 
 public class EtudiantDB {
 
